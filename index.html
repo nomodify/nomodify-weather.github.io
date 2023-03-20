@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.16.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/1d467a11ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="weather-app">
+        <div id="location"></div>
+        <div id="temperature"></div>
+        <div id="weather-conditions"></div>
+        <form id="location-form">
+            <label for="city">Enter a city or zip code:</label>
+            <input type="text" id="city" name="city" placeholder="Enter a city or zip code">
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </form>
+        <div id="feedback"></div>
+        <div id="forecast"></div>
+    </div>
+
+    <!--Upload once code has been handled properly-->
+    
+    <!--<div id="loadingProgressG"> 
+        <div id="loadingProgressG_1" class="loadingProgressG"></div>
+    </div>--->
+ 
+
+
+    <div aria-live="polite">
+        <p id="feedback"></p>
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://github.com/nomodifycreations"><i class="fab fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/Lilnoman1_YT"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.twitch.tv/nomodifyy"><i class="fab fa-twitch"></i></a></li>
+              </ul>
+              <p>&copy; 2023 nomodify. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="loading-screen.js"></script>
+</body>
+</html>

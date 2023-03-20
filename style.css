@@ -1,0 +1,179 @@
+#weather-app {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#location, #temperature, #weather-conditions, #forecast {
+    margin-top: 20px;
+}
+
+#location-form {
+    margin-top: 40px;
+}
+
+#location-form label, #location-form input, #location-form button {
+    display: block;
+    margin: 10px auto;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+#weather-app {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#location, #temperature, #weather-conditions, #forecast {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+#location-form {
+    margin-top: 40px;
+}
+
+#location-form label, #location-form input, #location-form button {
+    display: block;
+    margin: 10px auto;
+}
+
+#location-form button {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#location-form button:hover {
+    background-color: #555;
+}
+
+#feedback {
+	color: white;
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+}
+/* Styles for the loading screen */
+#loadingProgressG{
+	width:250px;
+	height:19px;
+	overflow:hidden;
+	background-color:rgb(0,0,0);
+	margin:auto;
+	border-radius:10px;
+		-o-border-radius:10px;
+		-ms-border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+}
+
+.loadingProgressG{
+	background-color:rgb(255,255,255);
+	margin-top:0;
+	margin-left:-250px;
+	animation-name:bounce_loadingProgressG;
+		-o-animation-name:bounce_loadingProgressG;
+		-ms-animation-name:bounce_loadingProgressG;
+		-webkit-animation-name:bounce_loadingProgressG;
+		-moz-animation-name:bounce_loadingProgressG;
+	animation-duration:1.5s;
+		-o-animation-duration:1.5s;
+		-ms-animation-duration:1.5s;
+		-webkit-animation-duration:1.5s;
+		-moz-animation-duration:1.5s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-timing-function:linear;
+		-o-animation-timing-function:linear;
+		-ms-animation-timing-function:linear;
+		-webkit-animation-timing-function:linear;
+		-moz-animation-timing-function:linear;
+	width:250px;
+	height:19px;
+}
+
+
+
+@keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-250px;
+	}
+
+	100%{
+		margin-left:250px;
+	}
+}
+
+@-o-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-250px;
+	}
+
+	100%{
+		margin-left:250px;
+	}
+}
+
+@-ms-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-250px;
+	}
+
+	100%{
+		margin-left:250px;
+	}
+}
+
+@-webkit-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-250px;
+	}
+
+	100%{
+		margin-left:250px;
+	}
+}
+
+@-moz-keyframes bounce_loadingProgressG{
+	0%{
+		margin-left:-250px;
+	}
+
+	100%{
+		margin-left:250px;
+	}
+}
+
+

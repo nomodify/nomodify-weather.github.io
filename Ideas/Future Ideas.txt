@@ -1,0 +1,17 @@
+User account system: You could add a user account system that allows users to create an account, log in, and save their favorite locations for quick access to weather information.
+
+Weather forecast: You could display a 5-day forecast for the current location, showing the expected high and low temperatures and weather conditions for each day.
+
+Weather notifications: You could set up push notifications to alert users when certain weather conditions occur, such as severe thunderstorms or heavy snowfall.
+
+Weather history: You could add a feature that allows users to view past weather data for a specific location, such as a temperature graph or a summary of past weather conditions.
+
+Weather information for multiple locations: You could allow users to view weather information for multiple locations at once, such as comparing the current weather between two different cities.
+
+Dark mode: Since you are going for a dark/grey theme you could add a feature that allows users to switch to a dark mode interface, which will change the color scheme of the app to a darker theme.
+
+Weather alerts: You could add alerts for severe weather conditions, such as hurricanes, tornadoes, or flash floods.
+
+Radar/satellite map: You could include a radar or satellite map that shows the current weather conditions for the selected location.
+
+These are just a few ideas, and the best way to know what to add is to figure out the needs of your target audience. You should also consider the feasibility of adding these features given the time and resources you have available.
